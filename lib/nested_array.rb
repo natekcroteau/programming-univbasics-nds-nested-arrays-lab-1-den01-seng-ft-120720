@@ -25,11 +25,10 @@ def assembled_matrix
 
 def sorted_matrix
   produce = [
-    ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
-    ["Asparagus", "Avocadoes", "Grapefruit", "Potatoes", "Strawberries"]
+    CONVENTIONAL_PRODUCE.sort, 
+    ORGANIC_PRODUCE.sort
     ]
-  produce 
-end
+  end
 
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
