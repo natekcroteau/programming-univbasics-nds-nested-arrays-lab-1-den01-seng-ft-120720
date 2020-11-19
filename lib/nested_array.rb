@@ -17,19 +17,9 @@ CONVENTIONAL_PRODUCE = [
 ]
 
 def assembled_matrix
-  Produce_products = [[
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-      ],[
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-      ]
+  produce = [
+    CONVENTIONAL_PRODUCE, 
+    ORGANIC_PRODUCE
     ]
   end
   
@@ -60,3 +50,23 @@ def matrix_update(matrix, row, column, new_value)
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
 end
+
+
+
+
+def assembled_matrix
+  Produce_products = [[
+  "Grapefruit",
+  "Pineapple",
+  "Oranges",
+  "Watermelon",
+  "Eggplant"
+      ],[
+  "Strawberries",
+  "Potatoes",
+  "Grapes",
+  "Avocadoes",
+  "Asparagus"
+      ]
+    ]
+  end
