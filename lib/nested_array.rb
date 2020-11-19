@@ -28,6 +28,7 @@ def sorted_matrix
     ["Eggplant", "Grapefruit", "Oranges", "Pineapple", "Watermelon"],
     ["Asparagus", "Avocadoes", "Grapefruit", "Potatoes", "Strawberries"]
     ]
+  produce 
 end
 
 def matrix_lookup(matrix, row, column)
